@@ -1,0 +1,121 @@
+.sayt-oyoq-qismi {
+    align-items: center;
+    background: #031b34;
+    color: #a9c2dc;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: 1fr 1.2fr 1fr;
+    min-height: 270px;
+    padding: 35px 26px;
+}
+
+.oyoq-havolalari {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    justify-content: space-between;
+    max-width: 210px;
+}
+
+.oyoq-havolalari a {
+    color: #a9c2dc;
+    font-size: 13px;
+    text-decoration: none;
+}
+
+.oyoq-havolalari strong {
+    color: #fff;
+    font-size: 42px;
+    letter-spacing: -2px;
+    margin-top: auto;
+}
+
+.oyoq-talim-qismi {
+    display: flex;
+    gap: 14px;
+    justify-content: center;
+}
+
+.talim-kartasi,
+.qr-kartasi {
+    border: 2px solid #173754;
+    border-radius: 18px;
+    height: 166px;
+    padding: 18px;
+    width: 166px;
+}
+
+.bitiruv-belgisi {
+    color: #fff;
+    display: block;
+    font-size: 34px;
+    line-height: 1;
+    margin-bottom: 20px;
+}
+
+.talim-kartasi b {
+    color: #a9c2dc;
+    display: block;
+    font-size: 15px;
+}
+
+.talim-kartasi small,
+.qr-kartasi small {
+    color: #718eaa;
+    display: block;
+    font-size: 11px;
+    line-height: 1.25;
+    margin-top: 5px;
+}
+
+.qr-kartasi {
+    padding: 14px;
+}
+
+.qr-rasmi {
+    display: block;
+    height: 105px;
+    margin: auto;
+    object-fit: contain;
+    width: 105px;
+}
+
+.oyoq-meta-malumotlari {
+    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ijtimoiy-havolalar {
+    display: flex;
+    gap: 8px;
+    justify-content: flex-end;
+}
+
+.ijtimoiy-havolalar a {
+    align-items: center;
+    background: #fff;
+    border-radius: 8px;
+    color: #031b34;
+    display: flex;
+    font-size: 21px;
+    height: 37px;
+    justify-content: center;
+    text-decoration: none;
+    width: 37px;
+}
+
+.ijtimoiy-havolalar img {
+    height: 22px;
+    width: 22px;
+}
+
+.oyoq-meta-malumotlari p {
+    font-size: 12px;
+    line-height: 1.35;
+    margin: 0;
+    text-align: right;
+}
+

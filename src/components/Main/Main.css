@@ -1,0 +1,304 @@
+.qahramon {
+    background: radial-gradient(circle at 63% 100%, #0758ce 0, #042b64 35%, #031a32 75%);
+    min-height: 518px;
+    overflow: hidden;
+    position: relative;
+}
+
+.asosiy-qahramon {
+    min-height: 454px;
+    position: relative;
+}
+
+.qahramon-rasmi {
+    height: auto;
+    max-width: none;
+    object-fit: contain;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: min(1120px, 86vw);
+}
+
+.qahramon-mazmuni {
+    align-items: center;
+    display: flex;
+    margin: 34px auto 0;
+    max-width: 1150px;
+    padding: 0 25px;
+    position: relative;
+    z-index: 2;
+}
+
+.qahramon-matni {
+    max-width: 595px;
+    position: relative;
+    z-index: 2;
+}
+
+.qahramon h1 {
+    font-size: 41px;
+    letter-spacing: -.9px;
+    line-height: 1.27;
+    margin: 0 0 16px;
+}
+
+.qahramon-matni-izohi {
+    color: #fff;
+    font-size: 13px;
+    line-height: 1.65;
+    margin: 0 0 21px;
+    max-width: 570px;
+}
+
+.asosiy-tugma {
+    background: var(--blue);
+    border: 0;
+    border-radius: 11px;
+    color: #fff;
+    cursor: pointer;
+    font: 700 13px inherit;
+    padding: 14px 23px;
+}
+
+.hero-art {
+    height: 380px;
+    position: relative;
+    width: 520px;
+}
+
+.sales-badge,
+.watch-card,
+.seller-message {
+    background: #0750aa;
+    border: 1px solid #2674d8;
+    border-radius: 15px;
+    padding: 10px 13px;
+    position: absolute;
+    z-index: 3;
+}
+
+.sales-badge {
+    left: 0;
+    top: 42px;
+}
+
+.sales-badge span,
+.sales-badge small,
+.watch-card small {
+    display: block;
+    font-size: 10px;
+}
+
+.sales-badge strong {
+    display: block;
+    font-size: 19px;
+    margin: 2px 0;
+}
+
+.sales-badge small {
+    color: #7bd78e;
+}
+
+.watch-card {
+    right: 20px;
+    top: -8px;
+    width: 127px;
+}
+
+.watch-image {
+    align-items: center;
+    background: #6290dc;
+    border-radius: 11px;
+    display: flex;
+    font-size: 56px;
+    height: 107px;
+    justify-content: center;
+    margin: -5px -6px 7px;
+}
+
+.watch-card strong {
+    display: block;
+    font-size: 12px;
+}
+
+.seller-message {
+    background: #87a9e8;
+    bottom: 86px;
+    left: 0;
+    min-width: 177px;
+    padding: 9px 13px;
+}
+
+.seller-message strong,
+.seller-message span {
+    display: block;
+    font-size: 12px;
+}
+
+.seller-message span {
+    color: #193b78;
+}
+
+.seller-message em {
+    color: #d5e0f6;
+    font-size: 10px;
+    font-style: normal;
+    position: absolute;
+    right: 13px;
+    top: 10px;
+}
+
+.seller-person {
+    background: linear-gradient(110deg, #e1e4e7 0 43%, #c4cbd2 44%);
+    border-radius: 90px 90px 18px 18px;
+    bottom: -19px;
+    height: 274px;
+    left: 98px;
+    position: absolute;
+    transform: rotate(-2deg);
+    width: 237px;
+    z-index: 2;
+}
+
+.person-head {
+    background: #c99378;
+    border-radius: 50%;
+    height: 83px;
+    left: 85px;
+    position: absolute;
+    top: -63px;
+    width: 76px;
+}
+
+.laptop {
+    background: linear-gradient(135deg, #5d6572, #202a38);
+    border: 5px solid #78818c;
+    border-radius: 5px;
+    bottom: 17px;
+    height: 143px;
+    position: absolute;
+    right: 20px;
+    transform: perspective(350px) rotateY(-12deg) rotate(-4deg);
+    width: 205px;
+    z-index: 4;
+}
+
+.laptop::after {
+    background: #8993a0;
+    border-radius: 0 0 8px 8px;
+    bottom: -18px;
+    content: '';
+    height: 12px;
+    left: -22px;
+    position: absolute;
+    transform: skewX(-18deg);
+    width: 245px;
+}
+
+.statistika {
+    align-items: center;
+    background: linear-gradient(100deg, #627587, #8293a4);
+    border-radius: 15px;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1.1fr 1fr 1fr 1fr;
+    left: 50%;
+    max-width: 1075px;
+    padding: 14px;
+    position: absolute;
+    transform: translateX(-50%);
+    width: calc(100% - 40px);
+    z-index: 5;
+}
+
+.statistika>div {
+    border-left: 1px dashed #b7c3cc;
+    min-height: 62px;
+    padding: 0 14px;
+}
+
+.statistika>div:first-child {
+    border: 0;
+    padding-left: 0;
+}
+
+.statistika-sarlavhasi {
+    font-size: 21px;
+    font-weight: 800;
+    line-height: 1.13;
+}
+
+.statistika strong {
+    display: block;
+    font-size: 21px;
+}
+
+.statistika span {
+    display: block;
+    font-size: 11px;
+    line-height: 1.25;
+    margin-top: 4px;
+}
+
+@media (max-width:900px) {
+    .qahramon-mazmuni {
+        margin-top: 48px;
+    }
+
+    .qahramon-bezagi {
+        opacity: .55;
+        position: absolute;
+        right: -90px;
+    }
+}
+
+@media (max-width:620px) {
+    .qahramon {
+        min-height: 700px;
+    }
+
+    .hero-content {
+        margin-top: 52px;
+        padding: 0 20px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    .hero-image {
+        right: -95px;
+        top: 245px;
+        width: 760px;
+    }
+
+    .hero-art {
+        opacity: .3;
+        right: -180px;
+        top: 270px;
+    }
+
+    .stats {
+        bottom: 15px;
+        grid-template-columns: 1fr 1fr;
+        row-gap: 10px;
+    }
+
+    .stats-title {
+        grid-column: 1/-1;
+    }
+
+    .stats>div {
+        min-height: 64px;
+        padding: 0 8px;
+    }
+
+    .stats strong {
+        font-size: 17px;
+    }
+
+    .stats span {
+        font-size: 9px;
+    }
+}

@@ -1,0 +1,62 @@
+.mahsulot-kartasi {
+    background: #fff;
+    border: 1px solid #e4eaf0;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.mahsulot-rasmi {
+    align-items: center;
+    display: flex;
+    height: 180px;
+    justify-content: center;
+    position: relative;
+}
+
+.mahsulot-belgisi {
+    font-size: 84px;
+}
+
+.sevimli-tugmasi {
+    background: #fff;
+    border: 0;
+    border-radius: 50%;
+    color: var(--blue);
+    font-size: 21px;
+    height: 36px;
+    position: absolute;
+    right: 14px;
+    top: 14px;
+    width: 36px;
+}
+
+.mahsulot-rasmi.blue {
+    background: #dceaff;
+}
+
+.mahsulot-rasmi.peach {
+    background: #ffe4d6;
+}
+
+.mahsulot-rasmi.green {
+    background: #d9f1e4;
+}
+
+.mahsulot-malumoti {
+    color: var(--ink);
+    padding: 16px;
+}
+
+.mahsulot-malumoti h3 {
+    margin: 0 0 4px;
+}
+
+.mahsulot-malumoti p {
+    color: var(--muted);
+    font-size: 12px;
+    margin: 0 0 13px;
+}
+
+.mahsulot-malumoti strong {
+    font-size: 18px;
+}

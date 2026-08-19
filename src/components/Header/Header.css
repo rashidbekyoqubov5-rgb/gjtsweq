@@ -1,0 +1,106 @@
+.sayt-boshi {
+    align-items: center;
+    display: flex;
+    gap: 14px;
+    height: 64px;
+    margin: auto;
+    max-width: 1280px;
+    padding: 0 25px;
+    position: relative;
+    z-index: 5;
+}
+
+.brend {
+    color: #fff;
+    font-size: 38px;
+    font-weight: 800;
+    letter-spacing: -2px;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.sarlavha-boshqaruvlari,
+.kirish-amallari {
+    align-items: center;
+    display: flex;
+    gap: 8px;
+}
+
+.sarlavha-boshqaruvlari {
+    margin-left: 25px;
+}
+
+.tanlash-tugmasi,
+.til-tugmasi {
+    background: #102f50;
+    border: 0;
+    border-radius: 24px;
+    color: #fff;
+    font: 600 13px inherit;
+    padding: 11px 16px;
+}
+
+.tanlash-tugmasi span {
+    margin-left: 5px;
+}
+
+.navigatsiya {
+    display: flex;
+    gap: 28px;
+    margin-left: auto;
+}
+
+.navigatsiya a {
+    color: #e3edf9;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+    white-space: nowrap;
+}
+
+.kirish-amallari {
+    margin-left: 12px;
+}
+
+.kirish-tugmasi,
+.royxatdan-otish-tugmasi {
+    background: var(--blue);
+    border: 0;
+    border-radius: 11px;
+    color: #fff;
+    cursor: pointer;
+    font: 700 12px inherit;
+    padding: 11px 16px;
+}
+
+.royxatdan-otish-tugmasi {
+    padding-inline: 18px;
+}
+
+@media (max-width:900px) {
+    .navigatsiya {
+        display: none;
+    }
+}
+
+@media (max-width:620px) {
+    .sayt-boshi {
+        padding: 0 16px;
+    }
+
+    .brend {
+        font-size: 29px;
+    }
+
+    .sarlavha-boshqaruvlari {
+        display: none;
+    }
+
+    .kirish-amallari {
+        margin-left: auto;
+    }
+
+    .royxatdan-otish-tugmasi {
+        display: none;
+    }
+}
