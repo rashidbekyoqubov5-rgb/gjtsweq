@@ -1,1 +1,120 @@
-.benefits-section{background:#fff;color:var(--ink);margin:auto;max-width:1240px;padding:22px 17px 55px}.benefits-section h2{font-size:34px;letter-spacing:-1.2px;margin:0 0 18px}.benefits-grid{display:grid;gap:22px;grid-template-columns:repeat(4,1fr)}.benefit-card{border-radius:17px;min-height:238px;overflow:hidden;padding:23px;position:relative}.benefit-card.light{background:var(--pale)}.benefit-card.dark{background:linear-gradient(120deg,#062142,#0a5dff);color:#fff}.benefit-card.large,.benefit-card.wide{grid-column:span 2}.benefit-copy{max-width:235px;position:relative;z-index:2}.benefit-card h3{font-size:18px;line-height:1.15;margin:0 0 10px}.benefit-card p{font-size:14px;line-height:1.45;margin:0}.benefit-image{bottom:0;max-height:76%;max-width:50%;object-fit:contain;position:absolute;right:10px}.benefit-card:nth-child(1) .benefit-image{max-height:100%;max-width:64%;right:-2px}.benefit-card:nth-child(n+2):nth-child(-n+5) .benefit-image{bottom:8px;max-height:68%;max-width:52%;right:12px}.benefit-card:nth-child(6) .benefit-image{max-height:100%;max-width:66%;right:-2px}@media(max-width:620px){.benefits-section{padding-left:16px;padding-right:16px}.benefits-section h2{font-size:28px}.benefits-grid{gap:14px;grid-template-columns:1fr}.benefit-card.large,.benefit-card.wide{grid-column:span 1}.benefit-card{min-height:215px}}
+.afzalliklar-bolimi {
+    background: #fff;
+    color: var(--ink);
+    margin: auto;
+    max-width: 1240px;
+    padding: 22px 17px 55px;
+}
+
+.afzalliklar-bolimi h2 {
+    font-size: 34px;
+    letter-spacing: -1.2px;
+    margin: 0 0 18px;
+}
+
+.afzalliklar-togri {
+    display: grid;
+    gap: 22px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.afzallik-kartasi {
+    border-radius: 17px;
+    min-height: 238px;
+    overflow: hidden;
+    padding: 23px;
+    position: relative;
+}
+
+.afzallik-kartasi:nth-child(1),
+.afzallik-kartasi:nth-child(6) {
+    grid-column: span 2;
+    background: linear-gradient(120deg, #062142, #0a5dff);
+    color: #fff;
+}
+
+.afzallik-kartasi:nth-child(2),
+.afzallik-kartasi:nth-child(3),
+.afzallik-kartasi:nth-child(4),
+.afzallik-kartasi:nth-child(5) {
+    background: var(--pale);
+}
+
+.afzallik-matni {
+    max-width: 235px;
+    position: relative;
+    z-index: 2;
+}
+
+.afzallik-kartasi h3 {
+    font-size: 18px;
+    line-height: 1.15;
+    margin: 0 0 10px;
+}
+
+.afzallik-kartasi p {
+    font-size: 14px;
+    line-height: 1.45;
+    margin: 0;
+}
+
+.afzallik-rasmi {
+    bottom: 0;
+    max-height: 76%;
+    max-width: 50%;
+    object-fit: contain;
+    position: absolute;
+    right: 10px;
+}
+
+.afzallik-kartasi:nth-child(1) .afzallik-rasmi {
+    max-height: 100%;
+    max-width: 64%;
+    right: -2px;
+}
+
+.afzallik-kartasi:nth-child(n+2):nth-child(-n+5) .afzallik-rasmi {
+    bottom: 8px;
+    max-height: 68%;
+    max-width: 52%;
+    right: 12px;
+}
+
+.afzallik-kartasi:nth-child(6) .afzallik-rasmi {
+    max-height: 100%;
+    max-width: 66%;
+    right: -2px;
+}
+
+.afzallik-oqi {
+    align-items: center;
+    background: #fff;
+    border-radius: 50%;
+    bottom: 16px;
+    color: var(--ink);
+    display: flex;
+    font-size: 24px;
+    height: 34px;
+    justify-content: center;
+    left: 23px;
+    line-height: 1;
+    position: absolute;
+    width: 34px;
+    z-index: 3;
+}
+
+@media (max-width: 760px) {
+    .afzalliklar-bolimi h2 {
+        font-size: 28px;
+    }
+
+    .afzalliklar-togri {
+        grid-template-columns: 1fr;
+    }
+
+    .afzallik-kartasi:nth-child(1),
+    .afzallik-kartasi:nth-child(6) {
+        grid-column: auto;
+    }
+}
+

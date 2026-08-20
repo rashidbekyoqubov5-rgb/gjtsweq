@@ -36,8 +36,8 @@ function Firdavs() {
           <span className="xizmat-strelkasi">→</span>
         </article>
       </div>
-      <a className="telegram-e-loni" href="https://t.me/ozon_uzbekistan" target="_blank" rel="noreferrer">
-        <span className="telegram-belgisi">➤</span>
+      <a className="telegram-eloni" href="https://t.me/ozon_uzbekistan" target="_blank" rel="noreferrer">
+        <span className="telegram-belgisi"></span>
         <strong>O‘zbekistonlik sotuvchilar uchun Telegram kanalimizga obuna bo‘ling</strong>
         <span className="telegram-strelkasi">→</span>
       </a>
