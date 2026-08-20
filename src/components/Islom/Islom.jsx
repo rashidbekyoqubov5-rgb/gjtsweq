@@ -1,4 +1,5 @@
 import './Islom.css';
+import rightArrow from '../../right-arrow.png';
 
 const benefits = [
   {
@@ -51,7 +52,7 @@ function Islom() {
               <p>{benefit.text}</p>
             </div>
             <img className="afzallik-rasmi" src={benefit.image} alt="" />
-            <span className="afzallik-oqi" aria-hidden="true">→</span>
+            <span className="afzallik-oqi" ><img src={rightArrow} alt="" /></span>
           </article>
         ))}
       </div>

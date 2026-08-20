@@ -1,0 +1,20 @@
+.manba-strelkasi {
+    align-items: center;
+    background: var(--pale);
+    border-radius: 50%;
+    display: flex;
+    flex-shrink: 0;
+    height: 34px;
+    justify-content: center;
+    object-fit: contain;
+    padding: 9px;
+    width: 34px;
+}
+
+.manba-asosiy .manba-strelkasi {
+    background: #70869f;
+    bottom: 24px;
+    left: 24px;
+    position: absolute;
+    z-index: 2;
+}

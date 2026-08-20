@@ -1,4 +1,5 @@
 import './Firdavs.css';
+import rightArrow from '../../right-arrow.png';
 
 const steps = [
   { number: '1', title: 'Tovarlarni tanlash', active: true },
@@ -28,18 +29,18 @@ function Firdavs() {
         <article className="xizmat-kartasi">
           <h3>Bepul tahlil xizmati</h3>
           <img className="xizmat-rasmi" src="https://ir-20.ozone.ru/s3/seller-promo-events/wc800/onboarding_steps_free_analytics_x3.png" alt="Bepul tahlil xizmati" />
-          <span className="xizmat-strelkasi">→</span>
+          <img className="xizmat-strelkasi" src={rightArrow} alt="" />
         </article>
         <article className="xizmat-kartasi">
           <h3>Ozon tariflari</h3>
           <img className="xizmat-rasmi" src="https://ir-20.ozone.ru/s3/seller-promo-events/wc800/onboarding_steps_calculator_x3.png" alt="Ozon tariflari kalkulyatori" />
-          <span className="xizmat-strelkasi">→</span>
+          <img className="xizmat-strelkasi" src={rightArrow} alt="" />
         </article>
       </div>
       <a className="telegram-eloni" href="https://t.me/ozon_uzbekistan" target="_blank" rel="noreferrer">
         <span className="telegram-belgisi"></span>
         <strong>O‘zbekistonlik sotuvchilar uchun Telegram kanalimizga obuna bo‘ling</strong>
-        <span className="telegram-strelkasi">→</span>
+        <img className="telegram-strelkasi" src={rightArrow} alt="" />
       </a>
     </section>
   );
